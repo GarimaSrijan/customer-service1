@@ -31,7 +31,7 @@ spec:
         app: customer-service
     spec:
       containers:
-      - image: ashishdocker0/services
+      - image: garimasrijan/services
         name: customer-service
         ports:
         - containerPort: 8081
